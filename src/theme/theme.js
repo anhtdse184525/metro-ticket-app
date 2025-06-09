@@ -3,7 +3,7 @@ const spacing = {
 };
 
 const typeSizes = {
-  FONT_SIZE_LARGE: 16,
+  FONT_SIZE_LARGE: 25,
   FONT_SIZE_MEDIUM: 14,
   FONT_SIZE_SMALL: 12,
   FONT_WEIGHT_LIGHT: 200,
@@ -13,7 +13,8 @@ const typeSizes = {
 
 const typeVariants = {
   titleLarge: {
-    fontFamily: "Poppins-Bold",
+    fontFamily: "normal",
+    fontWeight: "bold",
     fontSize: typeSizes.FONT_SIZE_LARGE,
   },
   titleSmall: {
